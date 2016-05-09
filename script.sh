@@ -10,7 +10,7 @@ echo '*** Preparation completed ***'
 
 ssh-keyegen -t rsa -P ""
 cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
-ssh rootz@localhost
+ssh zroot@localhost
 
 
 echo '*** Java 8 installation ***'
