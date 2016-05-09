@@ -8,7 +8,7 @@ sudo apt-get install rpl -y
 echo '*** Preparation completed ***'
 
 
-ssh-keyegen -t rsa -P ""
+ssh-keygen -t rsa -P ""
 cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
 ssh zroot@localhost
 
