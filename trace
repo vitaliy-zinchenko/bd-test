@@ -1,0 +1,1 @@
+create external table test_ext (id int, name string) ROW FORMAT DELIMITED FIELDS TERMINATED BY '\,' STORED AS TEXTFILE LOCATION '/user/hive/test_ext';
